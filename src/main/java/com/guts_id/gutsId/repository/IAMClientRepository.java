@@ -1,16 +1,16 @@
 package com.guts_id.gutsId.repository;
 
-import com.guts_id.gutsId.client.IAMClient;
+import com.guts_id.gutsId.client.OAuthClient;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
 
-public interface IAMClientRepository extends JpaRepository<IAMClient,Integer> {
+public interface IAMClientRepository extends JpaRepository<OAuthClient,Integer> {
 
-    Optional<IAMClient> findByClientId(String clientId);
+    Optional<OAuthClient> findByClientId(String clientId);
 
     boolean existsByClientId(String name);
 
-    IAMClient findByEnabled(boolean enabled);
+    OAuthClient findByEnabled(boolean enabled);
 
 }

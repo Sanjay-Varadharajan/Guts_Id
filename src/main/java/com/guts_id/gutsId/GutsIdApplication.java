@@ -8,5 +8,4 @@ public class GutsIdApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GutsIdApplication.class, args);
 	}
-
 }

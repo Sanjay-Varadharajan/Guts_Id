@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Getter
 @Setter
-public class IAMClient {
+public class OAuthClient {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
