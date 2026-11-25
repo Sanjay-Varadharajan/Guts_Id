@@ -19,7 +19,7 @@ public class GutsSession {
 
     private String sessionId; //unique guts session id
 
-    private String iamUserId;
+    private String iamUserMail;
 
     private Instant createdAt;
 
